@@ -1,4 +1,4 @@
-module git.imooc.com/go-micro-service/payment
+module github.com/go-micro-service/payment
 
 go 1.14
 

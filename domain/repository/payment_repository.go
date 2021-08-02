@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"git.imooc.com/go-micro-service/payment/domain/model"
+	"github.com/go-micro-service/payment/domain/model"
 
 	"github.com/jinzhu/gorm"
 )

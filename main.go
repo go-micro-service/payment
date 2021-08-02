@@ -2,9 +2,9 @@ package main
 
 import (
 	"git.imooc.com/go-micro-service/common"
-	"git.imooc.com/go-micro-service/payment/domain/repository"
-	service2 "git.imooc.com/go-micro-service/payment/domain/service"
-	"git.imooc.com/go-micro-service/payment/handler"
+	"github.com/go-micro-service/payment/domain/repository"
+	service2 "github.com/go-micro-service/payment/domain/service"
+	"github.com/go-micro-service/payment/handler"
 	"github.com/jinzhu/gorm"
 	"github.com/micro/go-micro/v2"
 	log "github.com/micro/go-micro/v2/logger"
@@ -17,7 +17,7 @@ import (
 
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 
-	payment "git.imooc.com/go-micro-service/payment/proto/payment"
+	payment "github.com/go-micro-service/payment/proto/payment"
 )
 
 func main() {

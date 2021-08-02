@@ -1,8 +1,8 @@
 package service
 
 import (
-	"git.imooc.com/go-micro-service/payment/domain/model"
-	"git.imooc.com/go-micro-service/payment/domain/repository"
+	"github.com/go-micro-service/payment/domain/model"
+	"github.com/go-micro-service/payment/domain/repository"
 )
 
 type IPaymentDataService interface {

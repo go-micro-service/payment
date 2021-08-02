@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 	"git.imooc.com/go-micro-service/common"
-	"git.imooc.com/go-micro-service/payment/domain/model"
-	"git.imooc.com/go-micro-service/payment/domain/service"
-	payment "git.imooc.com/go-micro-service/payment/proto/payment"
+	"github.com/go-micro-service/payment/domain/model"
+	"github.com/go-micro-service/payment/domain/service"
+	payment "github.com/go-micro-service/payment/proto/payment"
 )
 
 type Payment struct {
